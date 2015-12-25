@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:id="@+id/ll_home_page_continer"
+              android:background="#42c58c"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#42c58c"
+            android:id="@+id/container_header"
+            android:layout_height="56dp">
+
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/container_tab1"
+                    android:layout_width="wrap_content"
+                    android:text="FragmentA"
+                    android:gravity="center"
+                    android:textColor="#ddd"
+                    android:background="@null"
+                    android:textSize="12sp"
+                    android:layout_height="30dp"/>
+
+            <View
+                    android:id="@+id/container_div"
+                    android:layout_width="1dp"
+                    android:layout_toRightOf="@+id/container_tab1"
+                    android:background="@android:color/white"
+                    android:layout_height="30dp"></View>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/container_tab2"
+                    android:text="FragmentB"
+                    android:textColor="#ddd"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:textSize="12sp"
+                    android:layout_toRightOf="@id/container_div"
+                    android:layout_height="30dp"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+            android:background="@android:color/white"
+            android:id="@+id/homepager_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>
