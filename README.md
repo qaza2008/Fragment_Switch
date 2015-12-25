@@ -13,8 +13,8 @@ tags: android fragment 切换
 下面一个是原版效果,一个是简版效果
 
 
-![image](http://http://7vihs8.com1.z0.glb.clouddn.com/ezgif.com-crop.gif)
-![image](http://7vihs8.com1.z0.glb.clouddn.com/ezgif.com-crop%20(1).gif)
+![image](http://7vihs8.com1.z0.glb.clouddn.com/fragment1.gif)
+![image](http://7vihs8.com1.z0.glb.clouddn.com/fragment2.gif)
 
 
 #### 引用:
